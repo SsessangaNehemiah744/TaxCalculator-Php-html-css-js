@@ -1,0 +1,32 @@
+# NSSF and Tax Calculator - System Requirements
+
+## Server Requirements
+PHP>=7.0
+MySQL>=5.7 or MariaDB>=10.2
+
+## PHP Extensions Required
+mysqli
+PDO
+mbstring
+
+## Recommended Software
+Apache Web Server (via XAMPP)
+phpMyAdmin (for database management)
+
+## Browser Requirements
+Modern browser with:
+- HTML5 support
+- CSS3 support
+- JavaScript enabled (for future enhancements)
+
+## Optional Dependencies
+Bootstrap (for enhanced UI - if implementing in future)
+jQuery (for client-side validation - if implementing in future)
+
+## Installation Notes
+1. Install XAMPP from https://www.apachefriends.org/
+2. Enable PHP mysqli extension in php.ini
+3. Start Apache and MySQL services
+4. Create 'taxation' database using phpMyAdmin or MySQL CLI
+5. Place project files in C:\xampp\htdocs\<project-folder>\
+6. Access via http://localhost/<project-folder>/public/index.html
